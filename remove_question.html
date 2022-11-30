@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>Editor de Banco de Preguntas</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/app.css" />
+    <script type="text/javascript" src="json/questions.json"></script>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Banco de Preguntas 
+        <br />
+        Quitar Preguntas</h1>
+      <span id="menu"></span>
+      <div id="menubox" style="display: none">
+        <br /><a href="quiz_app.html" alt="back to quiz" title="back to quiz">
+          Volver al Quiz </a
+        ><br /><br />
+        <a
+          href="add_question.html"
+          alt="add questions"
+          title="add questions"
+        >
+          Añadir Preguntas
+        </a>
+        <span id="menudismiss"> X </span>
+      </div>
+    </div>
+    <div class="wrapper">
+      <label class="formLabel">Banco de Preguntas:</label><br />
+      <!-- Add all questions here with check boxes -->
+      <div id="showQstn"></div>
+      <br /><br />
+      <button id="removeQuestions"><p>Quitar Preguntas </p></button
+      ><br /><br /><br />
+      <button id="saveQuestions"><p>Guardar Preguntas</p></button>
+    </div>
+    <div id="footer2">
+      <h5>Hecho por Ismael &copy; Copyright Noviembre 2022</h5>
+    </div>
+    <script src="js/removequestions.js"></script>
+    <script src='js/menu.js'></script>
+  </body>
+</html>

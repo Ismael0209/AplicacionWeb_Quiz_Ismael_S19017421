@@ -1,0 +1,112 @@
+
+
+data = [
+    {
+        question: "¿Cuál de estos no es un lenguaje de programación?",
+        answers: {
+            a: "JavaScript",
+            b: "Python",
+            c: "Swift",
+            d: "XCode"
+        },
+        correctAnswer: "d"
+    },
+    {
+        question: "Este lenguaje de programación es muy utilizado en programacion web",
+        answers: {
+            a: "Java",
+            b: "Ruby",
+            c: "JavaScript",
+            d: "CSS"
+        },
+        correctAnswer: "c"
+    },
+    
+    {
+        question: "Las siglas IDE significan: ",
+        answers: {
+            a: "In Definition Escape",
+            b: "Informacion Delta Espacial",
+            c: "Identración De Estilos",
+            d: "Entorno de desarrollo integrado"
+        },
+        correctAnswer: "d"
+    },
+
+    {
+        question: "¿Qué es la Herencia?",
+        answers: {
+            a: "Es la base de la reutilización del código, mediante la herencia se pueden crear relaciones entre objetos que extienden",
+            b: "Es la base de un padre a un hijo dentro de un porgrama informatico",
+            c: "Son los que te permiten abrir Internet",
+            d: "Google, Yahoo, Gmail"
+        },
+        correctAnswer: "b"
+    },
+
+    {
+        question: "¿Qué es Sobrecarga de métodos?",
+        answers: {
+            a: "Consiste en tener un método con el mismo nombre pero diferentes constantes",
+            b: "Consiste en tener un método con el mismo nombre pero diferentes variables",
+            c: "Consiste en tener un método con el mismo nombre pero diferentes parámetros.",
+            d: "Consiste en tener un método con el mismo nombre pero diferentes signos"
+        },
+        correctAnswer: "c"
+    },
+
+    {
+        question: "¿Qué son las Excepciones?",
+        answers: {
+            a: " evento que ocurre durante la ejecucion del programa, interrumpiendo el flujo normal.",
+            b: " evento que ocurre durante la ejecucion del programa, interrumpiendo el flujo de almacenamiento .",
+            c: " evento que ocurre durante la ejecucion del programa, interrumpiendo el flujo alterno.",
+            d: "un evento muy muy importante"
+        },
+        correctAnswer: "a"
+    },
+
+    {
+        question: "Los elementos básicos de la POO son:        ",
+        answers: {
+            a: "Objetos, Mensajes, Metodos y Clases",
+            b: "Objetos, Interfaces GUI, Metodos y Clases",
+            c: "Objetos, Constantes, Ciclos y mas Ciclos",
+            d: "No se pero creo que son solo objetos"
+        },
+        correctAnswer: "a"
+    },
+
+    {
+        question: "Abstracción de datos es:",
+        answers: {
+            a: "la capacidad de crear tipos de variables definidos por el usuario.",
+            b: "la capacidad de crear tipos de datos definidos por el usuario.",
+            c: "la capacidad de crear tipos de webs definidos por el usuario.",
+            d: "la capacidad de crear tipos de constantes definidos por el usuario."
+        },
+        correctAnswer: "b"
+    },
+
+    {
+        question: "¿Qué es un Objeto?",
+        answers: {
+            a: "algo creado con propiedades ",
+            b: " entidad compuesta de unos datos y operaciones",
+            c: " entidad compuesta de unos datos y las operaciones que realizamos sobre esos datos",
+            d: "algo que esta en mi casa"
+        },
+        correctAnswer: "c"
+    },
+
+    {
+        question: "¿Qué es una Clase?",
+        answers: {
+            a: " Los datos y las operaciones comunes a un conjunto de objetos forman unconjunto que se conoce como clase",
+            b: " Los datos y las operaciones diferentes y unicos a un conjunto de objetos forman unconjunto que se conoce como clasa",
+            c: " Los datos y las operaciones abstractos a un conjunto de objetos forman unconjunto que se conoce como clase",
+            d: " Los datos y las operaciones binarios a un conjunto de objetos forman unconjunto que se conoce como clase"
+        },
+        correctAnswer: "a"
+    }
+];

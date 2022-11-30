@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Editor de Banco de Preguntas</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/app.css" />
+    <script type="text/javascript" src="json/questions.json"></script>
+  </head>
+
+  <body>
+    <div id="header">
+      <h1>Banco de Preguntas<br />Añadir Pregunta: <span id="qCount"></span></h1>
+      <span id="menu"></span>
+      <div id="menubox" style="display: none">
+        <br /><a
+          href="quiz_app.html"
+          alt="add questions"
+          title="add questions"
+        >
+          Volver al Quiz </a
+        ><br /><br />
+        <a
+          href="remove_question.html"
+          alt="remove questions"
+          title="remove questions"
+        >
+          Quitar Preguntas
+        </a>
+        <span id="menudismiss"> - </span>
+      </div>
+    </div>
+    <div class="quiz-wrapper">
+      <form id="addQuestion" onsubmit="submitForm(event)">
+        <label class="formLabel">Numero de Pregunta </label><br />
+        <label class="formLabel">Pregunta :</label><br />
+        <textarea
+          maxlength="200"
+          cols="50"
+          rows="5"
+          class="formArea"
+          placeholder="Añade tu pregunta . Incluya el signo de interrogación (?) al final."
+          id="q"
+          name="q"
+          required
+        ></textarea
+        ><br />
+        <label class="formLabel">Respuesta A:</label>
+        <input
+          type="text"
+          maxlength="100"
+          size="100"
+          class="formInput"
+          id="a"
+          name="a"
+          required
+        /><br />
+        <label class="formLabel">Respuesta B:</label>
+        <input
+          type="text"
+          maxlength="100"
+          size="100"
+          class="formInput"
+          id="b"
+          name="b"
+          required
+        /><br />
+        <label class="formLabel">Respuesta C:</label>
+        <input
+          type="text"
+          maxlength="100"
+          size="100"
+          class="formInput"
+          id="c"
+          name="c"
+          required
+        /><br />
+        <label class="formLabel">Respuesta D:</label>
+        <input
+          type="text"
+          maxlength="100"
+          size="100"
+          class="formInput"
+          id="d"
+          name="d"
+          required
+        /><br />
+        <label class="formLabel">Elija la respuesta Correcta: </label><br />
+        <select id="ca" name="ca" class="formSelect" required>
+          <option value="" selected disabled>Escoja</option>
+          <option value="a">- A -</option>
+          <option value="b">- B -</option>
+          <option value="c">- C -</option>
+          <option value="d">- D -</option></select
+        ><br /><br />
+        <button id="submitQuestion">
+          <p>Subir Pregunta</p></button
+        ><br /><br /><br />
+        <button id="saveQuestionBank">
+          <p>Guardar El banco de Preguntas</p>
+        </button>
+      </form>
+    </div>
+    <div id="footer">
+      <h5>Hecho por Ismael &copy; Copyright Noviembre 2022</h5>
+    </div>
+    <script src="js/addquestions.js"></script>
+    <script src="js/menu.js"></script>
+  </body>
+</html>
